@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cauã Spinola | Portfólio</title>
+
+  <!-- Fonte Nunito (Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== TOPO / MENU ===== -->
+  <header class="topo">
+    <a href="#inicio" class="marca">Cauã <span>Spinola</span></a>
+
+    <button id="abrir-menu" class="abrir-menu" title="Abrir menu">☰</button>
+
+    <nav id="navegacao" class="navegacao">
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#trajetoria">Trajetória</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== INÍCIO ===== -->
+  <section id="inicio" class="inicio">
+    <img src="imagens/caca.jpeg" alt="Foto de Cauã Spinola" class="foto-perfil">
+    <h1>Cauã Spinola de Oliveira</h1>
+    <p class="cargo">Estudante de Sistemas de Informação | UDF</p>
+    <p class="apresentacao">Em busca de uma oportunidade na área de tecnologia.</p>
+
+    <div class="grupo-botoes">
+      <a href="#sobre" class="btn">Sobre mim</a>
+      <a href="#hobbies" class="btn btn-secundario">Meus hobbies</a>
+    </div>
+  </section>
+
+  <!-- ===== SOBRE MIM ===== -->
+  <section id="sobre" class="secao">
+    <h2 class="titulo">Sobre <span>mim</span></h2>
+
+    <div class="sobre-texto">
+      <p>Meu nome é Cauã Spinola de Oliveira e estou cursando Sistemas de Informação na UDF. Moro em São Sebastião, com minha mãe e meu irmão mais velho.</p>
+      <p>Atualmente trabalho como garçom, enquanto não encontro uma vaga na minha área. Sou um cara prestativo, comunicativo e interessado em aprender coisas novas.</p>
+    </div>
+
+    <div class="dados">
+      <div class="dado">
+        <h3>Curso</h3>
+        <p>Sistemas de Informação</p>
+      </div>
+      <div class="dado">
+        <h3>Faculdade</h3>
+        <p>UDF</p>
+      </div>
+      <div class="dado">
+        <h3>Cidade</h3>
+        <p>São Sebastião - DF</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FORMAÇÃO E EXPERIÊNCIA ===== -->
+  <section id="trajetoria" class="secao secao-branca">
+    <h2 class="titulo">Formação e <span>experiência</span></h2>
+
+    <div class="cards-trajetoria">
+      <div class="card-trajetoria">
+        <span class="etiqueta">Em andamento</span>
+        <h3>Sistemas de Informação</h3>
+        <p>UDF</p>
+      </div>
+
+      <div class="card-trajetoria">
+        <span class="etiqueta">Concluído</span>
+        <h3>Ensino Médio</h3>
+      </div>
+
+      <div class="card-trajetoria">
+        <span class="etiqueta">Trabalho atual</span>
+        <h3>Garçom</h3>
+        <p>Enquanto busco uma vaga na área de tecnologia.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOBBIES ===== -->
+  <section id="hobbies" class="secao">
+    <h2 class="titulo">Meus <span>hobbies</span></h2>
+    <p class="subtitulo-secao">O que eu gosto de fazer no meu tempo livre:</p>
+
+    <div class="hobbies">
+      <div class="hobby">
+        <span class="icone">⚽</span>
+        <h3>Jogar bola</h3>
+      </div>
+      <div class="hobby">
+        <span class="icone">🏋️</span>
+        <h3>Academia</h3>
+      </div>
+      <div class="hobby">
+        <span class="icone">🚴</span>
+        <h3>Pedalar</h3>
+      </div>
+      <div class="hobby">
+        <span class="icone">🎧</span>
+        <h3>Ouvir música</h3>
+      </div>
+      <div class="hobby">
+        <span class="icone">🎮</span>
+        <h3>Videogame</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <section id="contato" class="secao secao-branca">
+    <h2 class="titulo">Vamos <span>conversar?</span></h2>
+    <p class="subtitulo-secao">Me chama no Instagram!</p>
+
+    <div class="contatos">
+      <!-- target="_blank" abre o Instagram em outra aba -->
+      <a href="https://www.instagram.com/caua_olv7/" target="_blank" class="link-instagram">
+        <span class="icone-instagram">
+          <!-- desenho do ícone do Instagram feito com SVG -->
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="2" width="20" height="20" rx="5"></rect>
+            <circle cx="12" cy="12" r="4"></circle>
+            <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"></circle>
+          </svg>
+        </span>
+        @caua_olv7
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer class="rodape">
+    <p>Cauã Spinola &copy; <span id="ano-atual"></span> - Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Botão que aparece quando a página é rolada -->
+  <button id="voltar-topo" class="voltar-topo" title="Voltar ao topo">↑</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
